@@ -1,5 +1,6 @@
 import CardServices from "../components/CardServices";
 import VideoLightbox from "../components/VideoLightbox";
+import ImageHero from "../../src/assets/images/hero-image.png";
 import Image1 from "../../src/assets/images/Explore service/first-image-here.png";
 import Image2 from "../../src/assets/images/Explore service/second-image-here.png";
 import Image3 from "../../src/assets/images/Explore service/third-image-here.png";
@@ -58,7 +59,7 @@ const Home = () => {
         <div data-aos="fade" data-aos-delay="200" className="w-full">
           <img
             className="aspect-video object-cover w-full h-full"
-            src="../../src/assets/images/hero-image.png"
+            src={ImageHero}
             alt="Hero Image"
           />
         </div>
