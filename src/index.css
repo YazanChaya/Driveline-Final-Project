@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ffffff;
+  --color-secondary: #000000;
+  --color-background: #202020;
+  --color-muted: #333333;
+  --color-muted-foreground: #808080;
+  --color-border: #0000001a;
+  --color-overlay: #00000080;
+  --color-card-bg: #00000014;
+
+  --font-sans: "Inter Tight", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: 'Clash Display', sans-serif;
+
+  --breakpoint-high-md: 61.9375rem;
+  --breakpoint-low-sm: 29.9375rem;
+
+  --text-body-regular: 1rem;
+  --text-body-medium: 1.125rem;
+  --text-body-small: 0.875rem;
+  --text-body-large: 1.25rem;
+  --text-heading-1: 4.5rem;
+  --text-heading-2: 2rem;
+  --text-heading-3: 1.75rem;
+  --text-heading-4: 1.5rem;
+  --text-heading-5: 1.25rem;
+  --text-heading-6: 1.125rem;
+}
+
+
+body {
+  font-family: var(--font-sans);
+  color: #000;
+  font-size: var(--font-body--regular);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
