@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import AnimatedMenuIcon from "../components/AnimatedMenuIcon";
 import { FaInstagram, FaLinkedin } from "react-icons/fa6";
 import { BiBasketball } from "react-icons/bi";
+import LogoImage from "../../public/Logo.svg";
 
 const menu = [
   {
@@ -49,7 +50,7 @@ const Header = () => {
           className="max-md:pl-2.5 md:pl-0 z-2 float-left text-[#333] relative"
         >
           <img
-            src="../../public/Logo.svg"
+            src={LogoImage}
             alt="Logo"
             className="inline-block max-w-full object-cover max-low-sm:h-9! text-muted-foreground w-auto low-sm:h-10!"
           />
