@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import NotFoundImage from "../assets/images/last-video-image.jpg";
+import NotFoundImage from "../../src/assets/images/notFound-Image.jpg";
 
 const NotFound = () => {
   return (
-    <div className="min-h-screen bg-black flex items-center justify-center px-4">
-      <div className="flex flex-col items-center text-center gap-5">
+    <div className="h-screen w-screen max-h-full max-w-full bg-black flex items-center justify-center px-4">
+      <div className="max-w-[20rem] flex flex-col items-center text-center gap-5">
         {/* Image */}
-        <div className="w-52 h-36 overflow-hidden rounded-lg">
+        <div className="w-80 overflow-hidden rounded-lg">
           <img
             src={NotFoundImage}
             alt="Not Found"
@@ -15,19 +15,19 @@ const NotFound = () => {
         </div>
 
         {/* Title */}
-        <h1 className="font-heading text-white text-2xl font-semibold">
+        <h1 className="w-full font-heading text-white max-md:text-heading-3 md:text-heading-2 font-medium leading-none">
           Page Not Found
         </h1>
 
         {/* Description */}
-        <p className="text-white/60 text-sm max-w-xs leading-relaxed">
+        <p className="opacity-[0.5] text-white text-[18px]">
           The page you are looking for doesn't exist or has been moved
         </p>
 
         {/* Button */}
         <Link
           to="/"
-          className="bg-white text-black text-sm font-medium px-16 py-3 rounded-md hover:bg-white/90 transition-colors"
+          className="w-full text-[18px] bg-white font-heading text-black font-medium px-3.75 py-2.25 rounded-lg hover:opacity-[0.7] duration-200"
         >
           Go Home
         </Link>

@@ -24,11 +24,10 @@ const Home = () => {
   return (
     <>
       {/* Hero Section */}
-      <div className="flex flex-col justify-start items-center max-md:h-auto max-md:max-h-none">
-        <div className="px-10 max-high-md:px-7.5">
-          <div className="container">
-            <div className="py-32 max-md:py-16 max-high-md:py-24">
-              <div className="w-full pt-12 max-md:pt-6 max-high-md:pt-10"></div>
+      <div className="flex flex-col justify-start max-md:h-auto max-md:max-h-none">
+        <div className="w-full px-4 low-sm:px-5 high-md:px-7.5 lg:px-10">
+          <div className="container mx-auto">
+            <div className="py-16 max-high-md:py-24 high-md:py-32">
               <div className="text-center">
                 <div className="w-full max-w-5xl mx-auto">
                   <h1
@@ -58,7 +57,7 @@ const Home = () => {
         </div>
         <div data-aos="fade" data-aos-delay="200" className="w-full">
           <img
-            className="aspect-video object-cover w-full h-full"
+            className="aspect-video object-cover w-full"
             src={ImageHero}
             alt="Hero Image"
           />
@@ -67,7 +66,7 @@ const Home = () => {
 
       {/* Explore Services Section */}
       <div>
-        <div className="px-10 max-high-md:px-7.5">
+        <div className="px-4 low-sm:px-5 high-md:px-7.5 lg:px-10">
           <div className="container mx-auto">
             <div className="max-md:py-12 max-high-md:py-16 high-md:py-20">
               <div className="w-full h-px bg-card-bg"></div>
@@ -128,7 +127,7 @@ const Home = () => {
         videoUrl="https://www.youtube.com/embed/dQw4w9WgXcQ"
       />
       <section>
-        <div className="max-high-md:px-7.5 high-md:px-10">
+        <div className="px-4 low-sm:px-5 high-md:px-7.5 lg:px-10">
           <div className="container mx-auto">
             <div className="max-md:py-8 md:py-12">
               <div data-aos="fade-up">
@@ -151,7 +150,7 @@ const Home = () => {
 
       {/* Services Performance Section */}
       <section>
-        <div className="max-high-md:px-7.5 high-md:px-10">
+        <div className="px-4 low-sm:px-5 high-md:px-7.5 lg:px-10">
           <div className="container mx-auto">
             <div className="max-md:py-8 md:py-12">
               <div className="max-md:flex max-md:flex-col max-md:flex-nowrap max-md:gap-16 md:grid md:grid-cols-[1fr_0.25fr_1fr] md:grid-rows-[auto] md:auto-cols-[1fr] max-high-md:gap-4 high-md:gap-8">
@@ -236,7 +235,7 @@ const Home = () => {
 
       {/* Latest Insights Section */}
       <div>
-        <div className="px-10 max-high-md:px-7.5">
+        <div className="px-4 low-sm:px-5 high-md:px-7.5 lg:px-10">
           <div className="container mx-auto">
             <div className="max-md:py-12 max-high-md:py-16 high-md:py-20">
               <div className="w-full h-px bg-card-bg"></div>
@@ -287,7 +286,7 @@ const Home = () => {
 
       {/* CTA Section */}
       <section>
-        <div className="max-high-md:px-7.5 high-md:px-10">
+        <div className="px-4 low-sm:px-5 high-md:px-7.5 lg:px-10">
           <div className="container mx-auto">
             <div className="max-md:py-8 md:py-12">
               <div data-aos="fade-up">
@@ -330,3 +329,4 @@ const Home = () => {
 };
 
 export default Home;
+

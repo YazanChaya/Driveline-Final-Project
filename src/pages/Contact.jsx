@@ -36,41 +36,39 @@ const Contact = () => {
               className="max-w-lg w-full mx-auto flex flex-col gap-5"
             >
               <div className="flex flex-col gap-2">
-                <label className="text-sm font-normal text-black">Name</label>
+                <label className="font-normal text-black">Name</label>
                 <input
                   type="text"
                   name="name"
                   value={form.name}
                   onChange={handleChange}
-                  className="w-full border border-black/20 rounded-sm px-3 py-2.5 text-sm font-sans outline-none focus:border-black transition-colors bg-transparent"
+                  className="w-full h-auto min-h-11 mb-0 border border-[#ccc] rounded-lg px-3 py-2 text-body-regular leading-[1.6] font-sans outline-none focus:border-black transition-colors bg-transparent"
                 />
               </div>
               <div className="flex flex-col gap-2">
-                <label className="text-sm font-normal text-black">Email</label>
+                <label className="font-normal text-black">Email</label>
                 <input
                   type="email"
                   name="email"
                   value={form.email}
                   onChange={handleChange}
-                  className="w-full border border-black/20 rounded-sm px-3 py-2.5 text-sm font-sans outline-none focus:border-black transition-colors bg-transparent"
+                  className="w-full h-auto min-h-11 mb-0 border border-[#ccc] rounded-lg px-3 py-2 text-body-regular leading-[1.6] font-sans outline-none focus:border-black transition-colors bg-transparent"
                 />
               </div>
               <div className="flex flex-col gap-2">
-                <label className="text-sm font-normal text-black">
-                  Message
-                </label>
+                <label className="font-normal text-black">Message</label>
                 <textarea
                   name="message"
                   value={form.message}
                   onChange={handleChange}
                   placeholder="Type your message..."
                   rows={5}
-                  className="w-full border border-black/20 rounded-sm px-3 py-2.5 text-sm font-sans outline-none focus:border-black transition-colors bg-transparent resize-none placeholder:text-black/30"
+                  className="w-full h-auto min-h-11 mb-0 border border-[#ccc] rounded-lg px-3 py-2 text-body-regular leading-[1.6] font-sans outline-none focus:border-black transition-colors bg-transparent resize-none placeholder:text-black/30"
                 />
               </div>
               <button
                 type="submit"
-                className="w-full bg-black text-white py-3.5 text-sm font-sans font-normal tracking-wide hover:bg-black/80 transition-colors cursor-pointer"
+                className="w-full font-heading bg-black text-white py-2.25 px-3.75 rounded-lg font-medium hover:opacity-[0.7] duration-200 cursor-pointer"
               >
                 Submit
               </button>

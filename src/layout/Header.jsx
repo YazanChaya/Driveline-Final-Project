@@ -40,7 +40,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-white border-b border-b-border flex flex-col justify-center items-center w-full min-h-16 md:min-h-18 low-sm:px-5 high-md:px-7.5 lg:px-10 fixed top-0 right-0 bottom-auto left-0 shadow-[0_1px_4px_#00000005] z-100">
+    <header className="bg-white border-b border-b-border flex flex-col justify-center items-center w-full min-h-16 md:min-h-18 px-4 low-sm:px-5 high-md:px-7.5 lg:px-10 fixed top-0 right-0 bottom-auto left-0 shadow-[0_1px_4px_#00000005] z-100">
       <div className="container grid gap-x-4 gap-y-4 grid-cols-[1fr_max-content_1fr] auto-cols-[1fr] justify-between items-center w-full max-w-7xl h-full mx-auto relative">
         <div onClick={toggleMenu}>
           <AnimatedMenuIcon isOpen={isMenuOpen} />
